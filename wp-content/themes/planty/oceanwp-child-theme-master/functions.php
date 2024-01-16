@@ -21,19 +21,26 @@
  */
 function oceanwp_child_enqueue_parent_style() {
 
-	// Dynamically get version number of the parent stylesheet (lets browsers re-cache your stylesheet when you update the theme).
+	// Dynamically get version number of the parent stylesheet (lets browsers re-cache your stylesheet when you update the theme)
+     // Récupère l'objet de thème correspondant à OceanWP
 	$theme   = wp_get_theme( 'OceanWP' );
+     // Obtient la version du thème OceanWP
 	$version = $theme->get( 'Version' );
 
-	// Load the stylesheet.
+	// Load the stylesheet
+     // Enregistre le style parent (style.css du thème OceanWP)
 	wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
+    // Enregistre un style supplémentaire pour le thème personnalisé (theme.css) dans le répertoire /css du thème enfant
 	wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/css/theme.css', array(), 
     filemtime (get_stylesheet_directory() . '/css/theme.css'));
+    // Enregistre le style du thème enfant (style.css du thème enfant)
+    // Dépend du style 'oceanwp-style' du thème parent
+    // Utilise la version du thème enfant et la date de modification du fichier pour le cache
 	wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css', array( 'oceanwp-style' ), $version, 
 	filemtime (get_stylesheet_directory() . '/css/theme.css'));;
 	
 }
-
+ // Ajoute l'action pour exécuter la fonction lors de l'enregistrement des scripts et styles
 add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
 
 
