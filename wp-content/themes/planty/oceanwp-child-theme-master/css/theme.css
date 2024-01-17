@@ -1,29 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap');
 body * {
-    font-family: 'Syne', sans-serif;
- }
+  font-family: 'Syne', sans-serif;
+}
 
 
- /* EN-TÊTE */
-.custom-logo {
-  width: 20%;
-  padding-top: 2%;
-  padding-bottom: 1%;
-}
-.custom-logo:hover {
-  opacity: 0.6;
-}
-.admin-button:hover {
-  color:#000000 !important;
-  font-size: smaller !important;
-  font-weight: bolder !important;
-}
-#menu-principal {
-  display:flex;
-  flex-direction: row;
-  justify-content:end;
-  margin-top: -8%;
-}
+/* EN-TÊTE */
+
 #menu-item-1055 {
   font-style: normal !important;
   font-size: 16px;
@@ -34,195 +16,167 @@ body * {
   padding-bottom: 3%;
   font-size: 16px !important;
 }
-#menu-item-1054.clr {
-padding-top: 0%;
+#menu-item-1054 a {
+  color: #ffffff !important; 
+  font-weight:bold !important;
+  font-size: 16px;
 }
-#menu-item-1055.clr {
-padding-bottom: 3%;
-}
-
- #menu-item-1054 a {
-    color: #ffffff !important; 
-    font-weight:bold !important;
-    font-size: 16px;
- }
- #menu-item-1054 {
+#menu-item-1054 {
   display: flex;
   justify-content: center;
   background-color: #DC9F96;
   line-height: 82px;
  
- }
-
- #menu-item-1054:hover a:hover {
-   color: white !important;
-   display: flex;
-   justify-content: center;
- }
- #menu-item-1054:hover {
+}
+#menu-item-1054:hover a:hover {
+  color: white !important;
+  display: flex;
+  justify-content: center;
+}
+#menu-item-1054:hover {
   background-color: #C02E44;
- }
-
- #menu-item-1055:hover a:hover {
-   font-size: smaller !important;
-   font-weight: bolder !important;
-   color: #000000;
- }
- li.menu-item-84:hover a:hover {
+}
+#menu-item-1055:hover a:hover {
   font-size: smaller !important;
   font-weight: bolder !important;
+  color: #000000;
 }
-
-#menu-principal > a:nth-child(3) {
-  display: flex !important;
-  font-size: 16px;
-  font-weight: 400;
-  color:#000000;
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-#menu-principal > a:nth-child(3):hover {
+.admin-button:hover {
+  color:#000000 !important;
   font-size: smaller !important;
   font-weight: bolder !important;
 }
 #site-navigation {
   margin-right: -15px;
 }
-
+#menu-principal-1 > li:nth-child(1):hover {
+  font-size: smaller !important;
+  font-weight: bolder !important;
+  color: #000000;
+}
 #menu-principal-1 > li:nth-child(3) a {
   background-color: #DC9F96;
   color: #ffffff !important;
-  font-weight:bold !important;
 }
-#menu-principal-1 > li:nth-child(3) a:hover {
+#menu-principal-1 > li:nth-child(3):hover a:hover {
   background-color: #C02E44;
+  color: #ffffff !important;
 }
-#menu-principal-1 > li:nth-child(1) > a:nth-child(1):hover {
-  font-size: smaller !important;
-   font-weight: bolder !important;
-}
-#menu-principal-1 > li:nth-child(2):hover a {
-  font-size: smaller !important;
-  font-weight: bolder !important;
-}
-  /* BODY */
+/* BODY */
 
-  /*L'IMAGE MISE EN AVANT*/
-  h1.wp-block-heading {
-    font-size: 38px !important;  
-  }
-  div.has-background:nth-child(1).background-image-accueil {
-    border-radius: 0 0 300% 300% / 0 0 30% 30%;
-    border-bottom: solid #e5d8cd 10px !important;
-    height: 950px;
-  }
-
-  .is-style-default {
-    background-color: #ece2da;
-  }
-  .wp-image-129 {
-    padding-top: 60px;
-  }
+/*L'image mise en avant*/
+h1.wp-block-heading {
+  font-size: 38px !important; 
+  font-family: 'Syne' !important;
+	font-weight: 800;
+}
+div.has-background:nth-child(1).background-image-accueil {
+  border-radius: 0 0 300% 300% / 0 0 30% 30%;
+  border-bottom: solid #e5d8cd 10px !important;
+  height: 950px;
+}
+.is-style-default {
+  background-color: #ece2da;
+}
+.wp-image-129 {
+  padding-top: 60px;
+}
   
-  /* L'ÉNERGIE DES PLANTES */
-  h2.wp-block-heading:nth-child(3) {
-    font-weight: 700;
-    font-size: 30px;
-  }
+/* L'énergie des plantes */
+h2.wp-block-heading:nth-child(3) {
+  font-weight: 700;
+  font-size: 30px;
+}
  
 
-/* SECTION LES GOÛTS */
+/* Les goûts */
+h2.has-background > strong:nth-child(1) {
+  font-weight: 800;
+  font-size: 30px;
+  padding-right: 0px;
+}
+p.has-text-align-center:nth-child(2){
+  margin-top: -50px;
+}
+div.has-background:nth-child(6) {
+  border-radius: 0 0 300% 300% / 0 0 20% 20%;
+}
+.wp-container-core-columns-layout-2 {
+  display:flex;
+  justify-content: center;
+} 
+.wp-image-96 {
+  padding-right: 5px;
+}
+.wp-image-97 {
+  padding-left: 5px;
+}
+.wp-image-99 {
+  padding-right: 5px;
+}
+.wp-image-98 {
+  padding-left: 5px;
+}
+figure.wp-block-gallery:nth-child(1) > figure:nth-child(1){
+  padding-right: 10px;
+  padding-top: 20px ;
+}  
 
-  h2.has-background > strong:nth-child(1) {
-    font-weight: 800;
-    font-size: 30px;
-    padding-right: 0px;
-  }
-  p.has-text-align-center:nth-child(2){
-    margin-top: -50px;
-  }
-  div.has-background:nth-child(6) {
-    border-radius: 0 0 300% 300% / 0 0 20% 20%;
-  }
-  .wp-container-core-columns-layout-2 {
-    display:flex;
-    justify-content: center;
-  } 
-  .wp-image-96 {
-    padding-right: 5px;
-  }
-  .wp-image-97 {
-    padding-left: 5px;
-  }
-  .wp-image-99 {
-    padding-right: 5px;
-  }
-  .wp-image-98 {
-    padding-left: 5px;
-  }
-  figure.wp-block-gallery:nth-child(1) > figure:nth-child(1){
-    padding-right: 10px;
-    padding-top: 20px ;
-  }  
+figure.wp-block-image:nth-child(2){
+  padding-right: 10px;
+  padding-top: 20px ;
+}  
+figure.wp-block-image:nth-child(3){
+  padding-right: 10px ;
+  padding-top: 20px ;
+}  
+figure.wp-block-image:nth-child(4){
+  padding-right: 10px ;
+  padding-top: 20px ;
+}  
 
-  figure.wp-block-image:nth-child(2){
-    padding-right: 10px;
-    padding-top: 20px ;
-    }  
+  /* Bouton commander */
 
-
-  figure.wp-block-image:nth-child(3){
-    padding-right: 10px ;
-    padding-top: 20px ;
-    }  
-
-  figure.wp-block-image:nth-child(4){
-    padding-right: 10px ;
-    padding-top: 20px ;
-    }  
-
-    /* BOUTON COMMANDER */
-    .uagb-button__wrapper a {
-	  display:flex;
-	  flex-direction:row;
-	  word-break:keep-all;
-	  word-break:normal;
-	  justify-content:center;
-	  text-align:center;
-    }
-    .uagb-block-2cefc98b .uagb-button__wrapper {
-	  margin-right: -30px;
-    }
+.uagb-button__wrapper a {
+	display:flex;
+	flex-direction:row;
+	word-break:keep-all;
+	word-break:normal;
+	justify-content:center;
+	text-align:center;
+}
+.uagb-block-2cefc98b .uagb-button__wrapper {
+	margin-right: -30px;
+}
  
-    /* CE QU'ILS EN PENSENT */
-    h2.wp-block-heading:nth-child(8) > strong:nth-child(1) {
-    font-weight: 800;
-    font-size: 30px;
-    }
-  div.wp-block-columns:nth-child(10) {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    justify-content: space-between;
-    align-items:center;
-   
-  }
-  p.has-text-align-left{
-    padding-left: 2px !important;
-  }
-  div.wp-block-columns:nth-child(10) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) {
-    margin-left:-2px;
-  }
-  div.is-vertically-aligned-center:nth-child(2) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) {
-    padding-right: 30px !important;
-  }
-  div.wp-block-column:nth-child(3) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) {
-    padding-right: 20px !important;
-    padding-left: 0px;
-  }
+/* Ce qu'ils en pensent */
+h2.wp-block-heading:nth-child(8) > strong:nth-child(1) {
+  font-weight: 800;
+  font-size: 30px;
+}
+div.wp-block-columns:nth-child(10) {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: space-between;
+  align-items:center;   
+}
+p.has-text-align-left{
+  padding-left: 2px !important;
+}
+div.wp-block-columns:nth-child(10) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) {
+  margin-left:-2px;
+}
+div.is-vertically-aligned-center:nth-child(2) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) {
+  padding-right: 30px !important;
+}
+div.wp-block-column:nth-child(3) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) {
+  padding-right: 20px !important;
+  padding-left: 0px;
+}
  
 
 /* NOUS RENCONTRER */
+
 /*le background*/
 div.has-background:nth-child(1).wp-block-image-bis {
   border-radius: 0 0 200% 200% / 0 0 80% 80%;
@@ -243,7 +197,8 @@ div.wp-block-uagb-image:nth-child(1) > figure:nth-child(1) {
 h2.wp-block-heading:nth-child(2) {
   margin-top: -5%;
   margin-right: 0%;
-  }
+}
+
 /*le paragraphe*/
 div.wp-block-group:nth-child(1) > div:nth-child(1) > p:nth-child(3).paragraphe-en-tete {
   display: flex;
@@ -252,170 +207,510 @@ div.wp-block-group:nth-child(1) > div:nth-child(1) > p:nth-child(3).paragraphe-e
   line-height:24px;
 }
 
+/* L'équipe*/
+.is-equipe {
+  display: flex;
+  flex-direction: row!important;
+  justify-content:center!important;
+  align-items: center !important;
+  margin-right:250px;
+  margin-left:250px;
+}
+/*Le formulaire "NOUS CONTACTER"*/
+.uagb-forms-textarea-input {
+	position:relative;
+	z-index:1;
+}
+.uag-image-450{
+	position:relative;
+	z-index:0;
+	margin-top:-40px;
+	margin-left: 15px;
+}
+.wp-image-306 {
+  margin-top: -170px;
+  margin-bottom: -20px;
+}
 
-/*#content .wp-block-group {
+/*Le bouton d'envoi du formulaire*/
+.uagb-forms-main-submit-button {
+  margin-left: 130px;
+  word-break:keep-all;
+}
+.uagb-forms-main-submit-button:hover {
+background-color: #C02E44 !important;
+}
+/*DERNIERE PAGE COMMANDER*/
+h2.wp-block-heading {
+  margin-bottom: -1.5%;
+}
+.wp-block-group
+.wp-block-separator.is-style-wide:not(.size-full) {
+  max-width:860px;
+  height: 1.2px;
+  margin-top: -2%;
+}
+h3.wp-block-heading:nth-child(3) {
+  margin-left:40%;
+}
+div.wp-block-columns:nth-child(4) {
+  margin-right: 0%;
+  max-width: 60%;
+}
+div.wp-block-columns:nth-child(2) {
+  margin-top:20px;
+}
 
-  justify-content: center;
-  align-items: center;
-  height: 400px;
-  border-radius: 0 0 250% 250% / 0 0 100% 100%;
- }
- .wp-block-image {
-
-  margin-top: 0px;
- }
- .wp-image-272 {
-  
-   position: absolute;
-   z-index: 1;
-   margin-top: -100px;
-   margin-left: 180px;
-   transform: rotate(10deg);
- }
-  html.html body.page-template-default.page.page-id-21.logged-in.admin-bar.wp-custom-logo.wp-embed-responsive.oceanwp-theme.dropdown-mobile.boxed-layout.no-header-border.default-breakpoint.content-full-screen.page-with-background-title.page-header-disabled.elementor-default.elementor-kit-6.customize-support.dialog-body.dialog-buttons-body.dialog-container.dialog-buttons-container div#outer-wrap.site.clr div#wrap.clr main#main.site-main.clr div#content-wrap.container.clr div#primary.content-area.clr div#content.site-content.clr article.single-page-article.clr div.entry.clr div.wp-block-group.has-background.is-layout-constrained.wp-block-group-is-layout-constrained div.wp-block-group__inner-container {
-    
-   
-    
-    padding-top: 150px !important;
-    margin-bottom: 0px; 
-  }
-  .wp-block-heading > strong:nth-child(1) {
-    font-family: Syne;
-    font-weight: 800;
-    padding-left: 50px !important;
-  }
-
-  p.has-text-align-center {
-  
-   
-    font-weight: 400;
-    padding-right: 350px !important;
-    padding-left: 400px !important;
-  }*/
-
-
-/* L'EQUIPE*/
-  .is-equipe {
-    display: flex;
-    flex-direction: row!important;
-    justify-content:center!important;
-    align-items: center !important;
-    margin-right:250px;
-    margin-left:250px;
-  }
-  /*Le formulaire "NOUS CONTACTER"*/
-  .uagb-forms-textarea-input {
-	  position:relative;
-	  z-index:1;
-  }
-  .uag-image-450{
-	  position:relative;
-	  z-index:0;
-	  margin-top:-40px;
-	  margin-left: 15px;
-  }
-  .wp-image-306 {
-    margin-top: -170px;
-    margin-bottom: -20px;
-  }
-   /*Le bouton d'envoi du formulaire*/
-  .uagb-forms-main-submit-button {
-    margin-left: 130px;
-    word-break:keep-all;
-  }
- 
-  /*DERNIERE PAGE COMMANDER*/
-  h2.wp-block-heading {
-    margin-bottom: -1.5%;
-  }
-  .wp-block-group
-  .wp-block-separator.is-style-wide:not(.size-full) {
-    max-width:860px;
-    height: 1.2px;
-    margin-top: -2%;
-  }
-  h3.wp-block-heading:nth-child(3) {
-    margin-left:40%;
-  }
-  div.wp-block-columns:nth-child(4) {
-    margin-right: 0%;
-    max-width: 60%;
-  }
-  div.wp-block-columns:nth-child(2) {
-    margin-top:20px;
-  }
-  /*Les formulaires*/
-  div.wp-block-columns:nth-child(7) > div:nth-child(1) {
-	max-width: 50%;
-  }
-  div.wp-block-columns:nth-child(7) > div:nth-child(2) {
+/*Les formulaires*/
+div.wp-block-columns:nth-child(7) > div:nth-child(1) {
+max-width: 50%;
+}
+div.wp-block-columns:nth-child(7) > div:nth-child(2) {
 	border-left: solid #ffffff 1.4px;
 	height: 470px;
 	max-width: 50%;
-  }
-  /*titre formulaires*/
-  
-  h3.wp-block-heading.wp-elements-706f15634f24dd56692c539d4e40d6dc {
+}
+
+/*titre formulaires*/ 
+h3.wp-block-heading.wp-elements-706f15634f24dd56692c539d4e40d6dc {
 	margin-left: 40%;
-  }
-  .wp-elements-14f406a366bdff6762ee01e589ef3968 {
-    margin-left: 8%;
-  }
-  /*Entrées formulaires*/
-  .uagb-block-b3d94c93.uagb-forms__outer-wrap {
-	margin-right: 36%;
+}
+.wp-elements-14f406a366bdff6762ee01e589ef3968 {
+  margin-left: 8%;
+}
+
+/*Entrées formulaires*/
+.uagb-block-b3d94c93.uagb-forms__outer-wrap {
+  margin-right: 36%;
   margin-left: 4%;
-  }
-  .uagb-block-ea02e675.uagb-forms__outer-wrap {
+}
+.uagb-block-ea02e675.uagb-forms__outer-wrap {
 	margin-left: 37.5%;
   margin-right: 1%;
-  }
-  /*Boutons d'envoi formulaires obsolètes*/
-  .uagb-block-ea02e675 > form:nth-child(1) > div:nth-child(6) {
-	visibility:hidden;
-  }
-  .uagb-block-b3d94c93 > form:nth-child(1) > div:nth-child(6) > button:nth-child(1) {
-	visibility:hidden;
-  }
-  /*Bouton commander dernière page*/
-  .uagb-button__wrapper {
-	 margin-left: 20px;
-   margin-bottom: 30%;
-  }
-  /* PIED-DE-PAGE */
+}
 
-  #site-footer {
+/*Boutons d'envoi formulaires obsolètes*/
+.uagb-block-ea02e675 > form:nth-child(1) > div:nth-child(6) {
+	visibility:hidden;
+}
+.uagb-block-b3d94c93 > form:nth-child(1) > div:nth-child(6) > button:nth-child(1) {
+	visibility:hidden;
+}
+
+/*Bouton commander dernière page*/
+.uagb-button__wrapper {
+	margin-left: 20px;
+  margin-bottom: 30%;
+}
+
+
+/* PIED-DE-PAGE */
+
+#site-footer {
   text-align: center;
   color: #000000;
   background-color: #ffffff;
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 16px;
- }
-  .footer-link {
-  color:black;
- }
-.footer-link:hover {
-color: black;
-font-size: smaller !important;
-font-weight: bolder !important;
 }
+.footer-link {
+  color:black;
+}
+.footer-link:hover {
+  color: black;
+  font-size: smaller !important;
+  font-weight: bolder !important;
+}
+
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
-/*@media (max-width: 770px) {
-  div.wp-block-columns:nth-child(3) > div:nth-child(2) > div:nth-child(1) {
-    flex-direction: column !important;
-    justify-content: center !important;
-    align-items: center !important;
-      
-  }
-  figure.wp-block-gallery:nth-child(1) {
-    flex-direction: column !important;
-    justify-content: center !important;
-    align-items: center !important;
-    gap: 30px !important;
-  }
-}*/
+/* Smartphones */
+@media all and (min-width: 320px) and (max-width: 719px){
+	/* Le menu du header */
+#site-header-inner:active{
+	background-color: #ECE2DA;
+}
+#mobile-dropdown {
+	height:180px;
+	position: relative;
+	border-top: solid black 1px;
+}
+
+#mobile-dropdown::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(236, 226, 218, 0.7), rgba(236, 226, 218, 0.7)), url('http://localhost/Planty/wp-content/uploads/2024/01/Background_menu.jpg');
+  background-size: cover;
+  z-index: 1; /* Ajustez le z-index pour placer le voile au-dessus de l'image de fond */
+}
+
+#mobile-dropdown-content {
+ /* Styles spécifiques à votre contenu du menu mobile ici */
+  position: relative;
+  z-index: 2; /* Assurez-vous que le contenu du menu reste au premier plan */
+}
+
+#mobile-dropdown ul li {
+	border-bottom: none;
+}
+#menu-principal-1 > li:nth-child(1) a{
+	color: black !important;
+}
+#menu-principal-1 > li:nth-child(2) > a:nth-child(1) {
+	color: black;
+}
+#menu-principal-1 > li:nth-child(1):hover a:hover {
+  color: black !important;
+}
+#menu-principal-1 > li:nth-child(3) {
+	width: 20% !important;
+	margin-left: 10% !important;
+	}
+#menu-principal-1 > li:nth-child(3) > a:nth-child(1) {
+	padding-left: 3% !important;
+	}
+#mobile-dropdown ul li {
+	border-bottom: none;
+}
+#menu-principal-1 > li:nth-child(1):hover a:hover {
+  color: black !important;
+}
+#menu-principal-1 > li:nth-child(3) {
+	width: 45% !important;
+	margin-left: 20%;
+}
+#menu-principal-1 > li:nth-child(3) > a:nth-child(1) {
+	padding-left: 3%;
+}
+/* Logo PAGE ACCUEIL */
+#site-header #site-logo #site-logo-inner a img, #site-header.center-header #site-navigation-wrap .middle-site-logo a img {
+	height:12px
+}
+/* Background Page Accueil */
+.background-image-accueil {
+	height: 550px !important;
+}
+/*test flexwrap*/
+.wp-block-uagb-container{
+	flex-wrap: nowrap !important;
+}
+	
+/* Titre Page Accueil */
+h1.wp-block-heading {
+	font-size: 19px !important;
+	display: inline-flex;
+	margin-bottom:-40px;
+	margin-left:1.5%;
+}
+
+/* Titre Les goûts */
+.wp-container-core-columns-layout-1.wp-block-columns {
+	width: 90%;
+	}
+h2.has-text-align-center:nth-child(1) {
+	word-break:normal !important;
+	margin-bottom: 10%;
+}
+h2.has-background > strong:nth-child(1) {
+	font-size: 23px;
+}
+/* Galerie images */
+figure.wp-block-gallery:nth-child(1) {
+	margin-left: 20px;
+	width: 250%
+}
+div.wp-block-uagb-buttons {
+	margin-left: 42% !important;
+}
+.uagb-block-2cefc98b .uagb-button__wrapper {
+	margin-right: 30%;
+	margin-left: 70%;
+}
+	
+/* Section "Ce qu'ils en pensent" */
+	/* titre h2 */
+h2.wp-block-heading:nth-child(10) > strong:nth-child(1) {
+	font-size: 17px;
+	margin-left: 0;
+	word-break: normal !important
+}
+div.wp-block-media-text.is-stacked-on-mobile .wp-block-media-text__content {
+	grid-column: 2;
+  grid-row: 1;
+}
+h2.wp-elements-79d3211d37f6342a1a0429c15ea65fcf{
+	word-break:normal;
+}
+div.wp-block-column:nth-child(2) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) {
+	padding-right: 32%;
+}
+h2.wp-elements-dfc8e7e524665290ca42c89ca7279924 {
+	word-break: normal !important;
+	font-size: 23px !important;
+}
+div.is-vertically-aligned-center:nth-child(2) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) {
+	padding-right: 0 !important;
+	margin-left:20% !important;
+}
+h2.wp-elements-a94df51d4dd5882f02c1d981a049109c {
+	word-break: normal;
+	font-size: 23px !important
+}
+div.wp-block-column:nth-child(3) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) {
+	margin-left: 23%;
+	padding-right: 0 !important;
+}
+	/* Section "les commentaires" */
+div.wp-block-columns:nth-child(11) {	
+	display: grid;
+	grid-template-columns: 100%;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+}
+p.has-text-align-left {
+	margin-left: 20% !important;
+}
+div.wp-block-columns:nth-child(10) {
+	display: grid;
+	grid-template-columns: 130%;
+	margin-left: 30%;
+}
+/* PAGE "NOUS RENCONTRER" */
+/* La fleur */
+div.wp-block-uagb-image:nth-child(1) > figure:nth-child(1) {
+	max-width: 20%;
+	margin-left: 1%;
+	margin-bottom:2%;
+	margin-top: -20%
+}
+/* Le titre */
+h2.wp-block-heading:nth-child(2){
+	display: flex-inline !important;
+	margin-left: 5%;
+	font-size: 14px !important;
+	margin-top: 5%;
+	padding-bottom: 5%;
+}
+.wp-block-columns{
+	display: flex;
+	width: 40%;
+	padding-right:10%;
+	margin-left: 30px
+}
+
+/* Le bouton du formulaire */
+.uagb-forms-main-submit-button {
+	margin-left: 2%;
+	margin-right:2%;
+}
+div.uagb-forms-main-submit-button-wrap{
+	margin-left: 10%;
+	margin-right:10%;	
+}
+/* Les canettes */
+div.wp-block-uagb-image:nth-child(4) > figure:nth-child(1) {
+	max-width: 100%;
+}
+/*DERNIERE PAGE*/
+h2.wp-block-heading {
+	padding-right: 1.375em !important;
+	padding-left: 1.375em !important;	
+	font-size: 20px !important;
+}
+h3.wp-block-heading{
+	margin-left: 5% !important;
+}
+
+/* Galerie Images-quantités */
+div.wp-block-columns:nth-child(4) {
+	margin-left: 10%;
+}
+/* h3 formulaire */
+
+/* formulaire */
+div.wp-block-columns:nth-child(7)> div:nth-child(2) {
+	margin-bottom:30px;
+	max-width: 52%;
+}
+div.uagb-block-ea02e675.uagb-forms__outer-wrap {
+ 	margin-left: 4%;
+}
+div.wp-block-columns:nth-child(7) > div:nth-child(1) {
+	max-width: 100%;
+}
+
+/* livraison */
+div.wp-block-columns:nth-child(7) > div:nth-child(2) {
+  margin-bottom: 44px;
+  border-top: solid #ffffff 1.4px;
+	border-left:none;
+  max-width: 100%;
+}
+div.uagb-block-b3d94c93.uagb-forms__outer-wrap {
+  margin-right: 2%;
+  margin-left: 2%;
+}	
+div.wp-block-uagb-buttons {
+  margin-left: 0;
+	margin-right: 60% !important;
+}
+div.uagb-button__wrapper {
+  margin-left:25%;
+  margin-bottom: 30%;
+}	
+}
+
+/* Tablettes */
+@media all and (min-width: 720px) and (max-width: 1023px){
+	/* LE HEADER */
+	/* Le menu du header */
+#site-header-inner:active{
+	background-color: #ECE2DA;
+}
+#mobile-dropdown {
+	height:180px;
+	position: relative;
+	border-top: solid black 1px;
+}
+#mobile-dropdown::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(236, 226, 218, 0.7), rgba(236, 226, 218, 0.7)), url('http://localhost/Planty/wp-content/uploads/2024/01/Background_menu.jpg');
+   background-size: cover;
+   z-index: 1; /* Ajustez le z-index pour placer le voile au-dessus de l'image de fond */
+}
+#mobile-dropdown-content {
+    /* Styles spécifiques à votre contenu du menu mobile ici */
+   position: relative;
+   z-index: 2; /* Assurez-vous que le contenu du menu reste au premier plan */
+}
+#mobile-dropdown ul li {
+	border-bottom: none;
+}
+#menu-principal-1 > li:nth-child(1) a{
+	color: black !important;
+}
+#menu-principal-1 > li:nth-child(2) > a:nth-child(1) {
+	color: black;
+}
+#menu-principal-1 > li:nth-child(1):hover a:hover {
+  color: black !important;
+}
+	#menu-principal-1 > li:nth-child(3) {
+		width: 20% !important;
+		margin-left: 5% !important;
+	}
+	#menu-principal-1 > li:nth-child(3) > a:nth-child(1) {
+		padding-left: 1% !important;
+	}
+/* PAGE ACCUEIL */
+/* Galerie images Les Goûts */
+.wp-container-core-columns-layout-2 {
+	margin-left: 1.5%;
+}
+/* Bouton commander */
+div.uagb-buttons__wrap {
+	margin-left:30%;
+}
+div.wp-block-uagb-buttons {
+	margin-left: 55%;
+}
+
+/* Titre h2 ce qu'ils en pensent */
+h2.wp-block-heading:nth-child(10) {
+	font-size: 23px !important;
+}
+	
+/* Ce qu'ils en pensent*/
+div.wp-block-columns:nth-child(12){
+	display:grid;
+	grid-template-columns:100% !important;
+	margin-left: 20%;
+}
+div.wp-block-column:nth-child(2) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) { 
+	margin-left:0 !important;	
+}
+	div.wp-block-columns:nth-child(12) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) {
+	margin-left:0 !important;
+	padding-right:10% !important;
+}
+	/* Page NOUS RENCONTRER */
+	/* la fleur */
+div.wp-block-uagb-image:nth-child(1){
+	margin-left:20%;
+	max-width:40%;
+}
+h2.wp-block-heading:nth-child(2) {
+	margin-top:1%;
+	margin-left: 0%;
+}
+	/* paragraphe */
+div.wp-block-group:nth-child(1) > div:nth-child(1) > p:nth-child(3) {
+	width: 100%;
+	margin-left:0 !important;
+}
+	/* Bouton envoi formulaire */
+	.uagb-forms-main-submit-button-wrap {
+	margin-left: 15%;
+}
+	/* Page "COMMANDER" */
+	/* le titre */
+h2.wp-block-heading {
+	margin-right: auto !important;
+}
+h3.wp-block-heading:nth-child(3) {
+	margin-left: 0% !important;
+}
+div.wp-block-columns:nth-child(4) {
+	margin-right: 56% !important;
+}
+.wp-block-separator.is-style-wide:not(.size-full){
+	max-width:80%;
+	margin-right:65%;
+}
+h3.wp-block-heading.wp-elements-706f15634f24dd56692c539d4e40d6dc{
+	margin-left:-50%;
+}
+div.uagb-block-ea02e675.uagb-forms__outer-wrap {
+	margin-left:-57% !important;
+	margin-right: 51% !important;
+}
+	h3.wp-elements-14f406a366bdff6762ee01e589ef3968 {
+	margin-left:0%;
+}
+div.wp-block-columns:nth-child(7) > div:nth-child(2){
+	border-top: solid #ffffff 1.4px;
+	border-left:none;
+	margin-bottom: 44px;
+	padding-top:10%;
+	max-width: 50% !important;
+	margin-right: 55%;
+}
+div.uagb-block-b3d94c93.uagb-forms__outer-wrap {
+	margin-right: -8%;
+  margin-left: -9%;
+}
+	div.wp-block-uagb-buttons-child {
+	margin-top: 10% !important;
+	margin-right: 172% !important;
+}
+
+}
+	
+/* Ordinateurs */
+@media all and (min-width: 1024px) and (max-width: 1440px){
+
+}
